@@ -6,13 +6,13 @@ public class Student {
     public int index;
 
     public void introduce(){
-        System.out.println("Nazywam się:" + name + lastName);
+        System.out.println("Nazywam się:" + name + " " + lastName);
     }
     public void logIn(){
-        System.out.println("Loguje sie za pomoca:" + nick);
+        System.out.println("Loguje sie za pomoca:" + nick );
     }
     public void myIndexNumber(){
-        System.out.println("Moj numer indeksu to:"+ index);
+        System.out.println("Moj numer indeksu to:"+ index + "\n");
     }
     public void myEmail(){
         System.out.println("Moj email to:" + email);
